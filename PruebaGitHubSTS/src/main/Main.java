@@ -3,6 +3,7 @@ package main;
 import entities.ObjectA;
 import entities.ObjectB;
 import entities.ObjectC;
+import entities.ObjectD;
 
 public class Main {
 
@@ -17,5 +18,8 @@ public class Main {
 		
 		ObjectC objetoC2 = new ObjectC(2,"Antonia", "Almeria");
 		System.out.println(objetoC2.toString());
+		
+		ObjectD objetoD = new ObjectD(1,"Mike","Avenida libertad", "Manises");
+		System.out.println(objetoD.toString());
 	}
 }
